@@ -1,0 +1,42 @@
+.contact {
+  padding: 20px;
+}
+
+/* FORMULARIO CENTRADO */
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto; /* 🔑 esto lo centra */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CAMPOS */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 8px;
+  font-family: inherit;
+}
+
+/* BOTÓN */
+.submit-btn {
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #444;
+}
